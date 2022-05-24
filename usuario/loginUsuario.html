@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Usuário</title>
+    <link rel="stylesheet" href="loginUsuario.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <form action="" class="form-login">
+
+            <div class="header-login">
+                <img src="../imagens/foguetao.png" alt="">
+
+                <h1>Entrar - Usuário</h1>
+            </div>
+
+            <div class="container-inputs">
+                <div class="input">
+                    <input type="email" name="emailUsuario" placeholder="Email" id="emailUsuario">
+                </div>
+
+                <div class="input">
+                    <input type="password" name="senhaUsuario" placeholder="Senha" id="senhaUsuario">
+                </div>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" name="checkBoxUsuario" id="remember">
+                <label for="remember">Lembrar-me</label>
+            </div>
+
+            <button type="submit" class="btn" onclick="login(event)">Entrar</button>
+
+            <p class="year">© 2022</p>
+            <p style="color: red;" id="error-label"></p>
+
+
+        </form>
+
+
+
+    </div>
+    <script src="loginUsuario.js"></script>
+</body>
+
+</html>

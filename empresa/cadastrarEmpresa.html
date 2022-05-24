@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar - Empresa</title>
+    <link rel="stylesheet" href="cadastrarEmpresa.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <form action="#" class="form-cadastro">
+
+            <div class="header-cadastro">
+                <img src="/imagens/foguetao.png" alt="">
+
+                <h1>Cadastrar - Empresa</h1>
+            </div>
+
+            <div class="container-inputs">
+                <div class="input">
+                    <input type="text" name="cadastrarNomeEmpresa" placeholder="Nome" id="cadastrarNomeEmpresa">
+                </div>
+
+                <div class="input">
+                    <input type="email" name="cadastrarEmailEmpresa" placeholder="Email" id="cadastrarEmailEmpresa">
+                </div>
+
+                <div class="input">
+                    <input type="password" name="cadastrarPasswordEmpresa" placeholder="Senha" id="cadastrarSenhaEmpresa">
+                </div>
+
+                <div class="input">
+                    <input type="number" name="cadastrarCNPJEmpresa" placeholder="CNPJ" id="cadastrarCNPJEmpresa">
+                </div>
+
+                <div class="input">
+                    <input type="file" name="" id="">
+                </div>
+            </div>
+
+            <button type="submit" class="btn" onclick="cadastrar(event)">Cadastrar</button>
+
+            <p class="year">© 2022</p>
+            <p style="color: red;" id="error-label"></p>
+
+
+        </form>
+
+    </div>
+    <script src="cadastrarEmpresa.js"></script>
+</body>
+
+</html>

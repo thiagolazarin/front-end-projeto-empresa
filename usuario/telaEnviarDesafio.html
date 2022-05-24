@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar desafio</title>
+    <link rel="stylesheet" href="telaEnviarDesafio.css">
+</head>
+<body>
+    
+    <div class="header">
+
+        <div class="img">
+            <img src="../imagens/foguetao.png" alt="" width="50" height="50"> 
+            <a href="#" class="myButton">Ver Desafios</a>
+        </div>
+
+        <div class="nome-usuario">
+            <h2>Nome do usuário</h2>
+        </div>
+
+    </div>
+
+    <div class="container">
+        
+        <form action="">
+
+            <h1>Enviar desafio</h1>
+
+            <div class="inputs">
+                <h3>Titulo do desafio</h3>
+                <input type="text" name="tituloDesafio" id="tituloDesafio">
+            </div>
+    
+            <div class="inputs">
+                <h3>Repositório Github</h3>
+                <input type="text" name="repositorioGithub" id="repositorioGithub">
+            </div>
+    
+            <div class="descricao">
+                <h3>Descreva como desenvolveu seu projeto, tecnologias usadas e etc</h3>
+                <textarea name="descricaoProjetoUsuario" id="descricaoProjetoUsuario" placeholder="Faça uma breve descrição do seu desafio"></textarea>
+            </div>
+            
+            <div class="emails-empresas">
+                <h3>Selecione o email da empresa</h3>
+                <select name="emailsEmpresas" id="emailsEmpresas">
+                    <option value="SP">Samsumg@hotmail.com</option>
+                    <option value="SP">Apple@hotmail.com</option>
+                    <option value="SP">Motorola@hotmail.com</option>
+                </select>
+            </div>
+    
+            <button type="submit">Enviar Desafio</button>
+    
+        </form>
+    </div>
+
+</body>
+</html>

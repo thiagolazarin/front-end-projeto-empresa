@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Empresa</title>
+    <link rel="stylesheet" href="loginEmpresa.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <form action="" class="form-login">
+
+            <div class="header-login">
+                <img src="/imagens/foguetao.png" alt="">
+
+                <h1>Entrar - Empresa</h1>
+            </div>
+
+            <div class="container-inputs">
+                <div class="input">
+                    <input type="email" name="emailEmpresa" placeholder="Email" id="emailEmpresa">
+                </div>
+
+                <div class="input">
+                    <input type="password" name="senhaEmpresa" placeholder="Senha" id="senhaEmpresa">
+                </div>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" name="checkboxEmpresa" id="remember">
+                <label for="remember">Lembrar-me</label>
+            </div>
+
+            <button type="submit" class="btn" onclick="login(event)">Entrar</button>
+
+            <a href="cadastrarEmpresa.html">
+                <p>Criar uma conta</p>
+            </a>
+            <p class="year">© 2022</p>
+            <p style="color: red;" id="error-label"></p>
+
+        </form>
+
+
+
+    </div>
+    <script src="loginEmpresa.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 70px;
+    background: #f0f3f5;
+    min-height: 100vh;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container .header-cadastro img{
+    width: 72px;
+    height: 72px;
+}
+
+.container form{
+    width: 600px;
+    box-shadow: 0 10px 15px rgba(0,0,0,.1);
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.container form .header-cadastro{
+    background: #fff;
+    padding: 30px 15px;
+}
+
+.container form h1{
+    font-size: 28px;
+    padding-bottom: 15px;
+    color: #666;
+}
+
+.container form .container-inputs {
+    padding: 30px;
+}
+
+.container form .container-inputs .input{
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.container form .container-inputs .input input{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    text-transform: none;
+}
+
+.container form .btn{
+    padding: 10px 40px;
+    margin-top: 10px;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.container form .btn:hover{
+    letter-spacing: 2px;
+}
+
+.container form .year{
+    padding: 20px 0;
+}
+
+
+
+
+

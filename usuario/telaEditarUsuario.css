@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.header{
+    box-shadow: 0 10px 15px rgba(0,0,0,.1);
+    border-radius: 5px;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+}
+
+.img a{
+    margin-top: 10px;
+}
+
+.container-itens{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.nome-desafio{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.descricao-desafio{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.descricao-desafio textarea{
+    height: 60px;
+}
+
+.imagem-desafio{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.myButton {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+@media (max-width: 689px){
+    .inputs-container .inputs-btn{
+        flex-direction: column;
+    }
+
+    .inputs-container .inputs-btn .input{
+        margin-top: 20px;
+    }
+
+    .section-conteudo .img{
+        width: 220px;
+        height: 220px;
+    }
+}
+
+@media (max-width: 550px){
+    .inputs-container .inputs-btn{
+        flex-direction: column;
+    }
+
+    .inputs-container .inputs-btn .input{
+        margin-top: 20px;
+    }
+
+    .inputs-container .inputs-btn{
+        margin-bottom: 10px;
+    }
+
+    .inputs-container .inputs-btn .input{
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 485px){
+    .inputs-container{
+        display: block;
+    }
+
+    .inputs-container .inputs-btn{
+        margin-bottom: 10px;
+    }
+
+    .inputs-container .inputs-btn .input{
+        margin-bottom: 10px;
+    }
+}
